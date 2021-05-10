@@ -8,7 +8,7 @@ RUN apt-get upgrade -y
 
 # Install pip
 RUN apt-get install -y python-dev && \
-      curl -O https://bootstrap.pypa.io/get-pip.py && \
+      curl -O https://bootstrap.pypa.io/pip/2.7/get-pip.py && \
       python get-pip.py
 
 # Install AWS CLI
